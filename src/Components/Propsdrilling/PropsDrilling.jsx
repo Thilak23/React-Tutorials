@@ -5,7 +5,8 @@ const PropsDrilling = () => {
   const course = 'Learning React';
   return (
     <>
-     <h2>Parent Components</h2>
+    <h1 style={{color : 'red'}}>Props Drilling</h1>
+    <h2>Parent Components</h2>
       <ChildA course = {course}/>
     </>
   )
