@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './theme.css'
+import './Styles/theme.css'
 
 const ToggleDarkMode = () => {
 
