@@ -1,0 +1,17 @@
+body{
+  background-color: #ffffff;
+  color: #333;
+}
+body.dark{
+  background-color: #333;
+  color: #f5e6e6;
+}
+.toggle{
+  display: flex;
+  justify-content: center;
+}
+.lak{
+  display: flex;
+  justify-content: center;
+}
+
