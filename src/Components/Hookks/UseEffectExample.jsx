@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 const UseEffectExample = () => {
-  
+
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
+      console.log('times');
       setSeconds((inc) => inc + 1);
     }, 1000);
 

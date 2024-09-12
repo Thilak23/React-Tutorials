@@ -5,6 +5,7 @@ const Usestatehook = () => {
   const[count,setCount] = useState(1);
 
   const updateCount = () => {
+    console.log('hi');
     setCount(count + 1);
   }
   return (
